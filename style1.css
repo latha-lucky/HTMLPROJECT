@@ -1,0 +1,110 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    background-color: ;
+}
+
+/* Navbar starts */
+
+nav
+{
+    background-color:white;
+    padding:20px ;
+    position: fixed;
+    top: 0;
+}
+nav ul
+{
+    /* border: 2px solid red; */
+    display: inline;
+    margin-left: 230px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 25px;
+    color: black;
+    transition: color 7s;
+}
+nav ul li a:hover
+{
+    color: green;
+}
+.navbar-icons
+{
+    border: 2px solid gray;
+    margin-left: 25px;
+    display: inline;
+    border-left: ;
+    
+}
+.navbar-logo{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.navbar-icons a{
+    margin-left: 13px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+
+}
+hr{
+    display: inline;
+}
+
+
+/* Navbar Ends */
+
+/* Banner Strats */
+.banner
+{
+    height: 600px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items:center ;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size:100% 50% ;
+
+}
+.banner-content
+{
+    border-top: 7px solid green;
+    width: 260px;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+.banner-content p{
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+.banner-content a{
+    border: 2px solid green;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin-left: 280px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    transition: background-color .6s;
+}
+
+/* Banner Ends */
